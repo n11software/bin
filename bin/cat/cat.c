@@ -29,8 +29,8 @@
  * @N11_PUBLIC_SOURCE_LICENSE_HEADER_END@
  */
 
-#include <stdio.h>
 #include <string.h>
+#include <stdio.h>
 
 void catFile(const char* file) {
 	FILE *fp = fopen(file, "r");
